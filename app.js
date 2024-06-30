@@ -1,7 +1,12 @@
-// Import necessary libraries
+// Ensure libraries are loaded
+console.log('Web3Modal:', window.Web3Modal);
+console.log('WalletConnectProvider:', window.WalletConnectProvider);
+console.log('Ethers:', window.ethers);
+
 const Web3Modal = window.Web3Modal.default;
 const WalletConnectProvider = window.WalletConnectProvider.default;
 const ethers = window.ethers;
+
 const web3 = require('@solana/web3.js');
 const bs58 = require('bs58');
 const axios = require('axios');
